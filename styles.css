@@ -102,7 +102,32 @@ button:active {
 }
 
 @keyframes blink {
-  0%   { opacity: 1; }
-  50%  { opacity: 0.3; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .logo{
+    width: 200px;
+    height: auto;
+  }
+  
+  input {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 14px;
+    background-color: #FFFFFF40;
+    padding-left: 10px;
+    cursor: pointer;
+    outline-color: #d0f0fd;
+    color: #ffffff95;
+  }
 }
